@@ -1,4 +1,4 @@
-#! /usr/bin/bash 
+#! /bin/bash 
 
 if [ $# -ne 2 ]; then 
     echo "Specify a project name and a directory with raw text files" 
