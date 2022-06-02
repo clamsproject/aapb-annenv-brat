@@ -23,6 +23,6 @@ if [ "$(git status -s)" ]; then
     git push 
 fi
 
-cd $(dirname $0)
+cd ..
 rm -rf repo
 
