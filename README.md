@@ -10,10 +10,20 @@ This repository contains a dockerized version of [brat 1.3](https://brat.nlplab.
 ## How to run 
 
 From you terminal, 
-1. Clone this repository into local disk
+1. **If you're running this for the first time**, download the tool and configurations by cloning this repository into local disk
     ```
     git clone https://github.com/clamsproject/aapb-annenv-brat.git
     cd aapb-annenv-brat 
+    ```
+1. **If you're updating this** for new configurations, go (`cd`) to the previously downloaded local copy and perform pulling from the server
+
+    ```
+    cd aapb-annenv-brat 
+    git pull
+    ```
+1. **If you're just running this** just go into the local copy. 
+    ```
+    git pull
     ```
 1. See inside `configs` directory and check if there's a subdirectory of which name matches to the project name to work on.
     ```
